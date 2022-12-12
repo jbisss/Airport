@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.airport.controllers.PcPageController">
+   <children>
+      <Label layoutX="471.0" layoutY="30.0" text="Логин" />
+      <Button layoutX="18.0" layoutY="60.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="487.0" text="Купить билет" />
+      <Label layoutX="18.0" layoutY="134.0" text="Ближайшие поездки" />
+      <ScrollPane layoutX="18.0" layoutY="165.0" prefHeight="105.0" prefWidth="487.0">
+         <content>
+            <HBox prefHeight="29.0" prefWidth="485.0">
+               <children>
+                  <TextField prefHeight="29.0" prefWidth="491.0" />
+                  <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="197.0" text="Возврат" />
+               </children>
+            </HBox>
+         </content>
+      </ScrollPane>
+      <Button layoutX="453.0" layoutY="280.0" mnemonicParsing="false" text="Выйти" />
+   </children>
+</AnchorPane>

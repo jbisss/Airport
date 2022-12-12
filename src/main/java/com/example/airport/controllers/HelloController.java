@@ -1,4 +1,4 @@
-package com.example.airport;
+package com.example.airport.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

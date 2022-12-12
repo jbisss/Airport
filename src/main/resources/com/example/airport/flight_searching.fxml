@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.airport.controllers.FlightSearchingController">
+   <children>
+      <Label layoutX="445.0" layoutY="35.0" text="Логин" />
+      <Label layoutX="65.0" layoutY="52.0" text="Выберите город отправления" />
+      <ComboBox layoutX="65.0" layoutY="81.0" prefHeight="25.0" prefWidth="414.0" />
+      <Label layoutX="65.0" layoutY="129.0" text="Выберите город прибытия" />
+      <ComboBox layoutX="65.0" layoutY="153.0" prefHeight="25.0" prefWidth="414.0" />
+      <Label layoutX="65.0" layoutY="203.0" text="Дата" />
+      <TextField layoutX="65.0" layoutY="234.0" prefHeight="25.0" prefWidth="186.0" />
+      <Label layoutX="445.0" layoutY="212.0" text="Тариф" />
+      <TextField layoutX="294.0" layoutY="234.0" prefHeight="25.0" prefWidth="186.0" />
+      <Button layoutX="65.0" layoutY="280.0" mnemonicParsing="false" text="Назад" />
+      <Button layoutX="430.0" layoutY="280.0" mnemonicParsing="false" text="Далее" />
+   </children>
+</AnchorPane>
