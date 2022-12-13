@@ -7,17 +7,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-
 <AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.ChoosingFlightController">
    <children>
-      <Label layoutX="25.0" layoutY="49.0" text="Город отправки - город прибытия" />
-      <Label layoutX="464.0" layoutY="32.0" text="Логин" />
-      <Label layoutX="25.0" layoutY="79.0" text="Число" />
-      <Label layoutX="25.0" layoutY="107.0" text="Тариф" />
+      <Label fx:id="textDepartureDestination" layoutX="25.0" layoutY="49.0" text="Город отправки - город прибытия" />
+      <Label fx:id="textLogin" layoutX="25.0" layoutY="32.0" text="Логин" />
+      <Label fx:id="textDate" layoutX="25.0" layoutY="79.0" text="Число" />
+      <Label fx:id="textRate" layoutX="25.0" layoutY="107.0" text="Тариф" />
       <Label layoutX="25.0" layoutY="132.0" text="Отправление" />
       <Label layoutX="185.0" layoutY="132.0" text="Прибытие" />
       <Label layoutX="294.0" layoutY="132.0" text="Стоимость" />
-      <ScrollPane layoutX="25.0" layoutY="158.0" prefHeight="127.0" prefWidth="473.0">
+      <ScrollPane fx:id="scrollPaneTimetable" layoutX="25.0" layoutY="158.0" prefHeight="127.0" prefWidth="473.0">
          <content>
             <HBox prefHeight="29.0" prefWidth="471.0">
                <children>
@@ -29,6 +28,6 @@
             </HBox>
          </content>
       </ScrollPane>
-      <Button layoutX="25.0" layoutY="291.0" mnemonicParsing="false" text="Назад" />
+      <Button onAction="#buttonBackClick" fx:id="buttonBack" layoutX="25.0" layoutY="291.0" mnemonicParsing="false" text="Назад" />
    </children>
 </AnchorPane>

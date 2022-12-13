@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class User {
     public static ArrayList<User> users = new ArrayList<>();
+    public static User actualUser = null;
     public Card card = null;
     private String surname;
     private String name;
@@ -21,19 +22,16 @@ public class User {
         this.surname = surname;
         this.middleName = middleName;
     }
-    public int findUser(String login, String password){
+    public static User findUser(String login, String password){
         for (User user : users) {
             if (user.getLogin().equals(login) && user.getPassword().equals(password)){
-                if (user instanceof Admin) {
-                    return 2;
-                }
-                return 1;
+                return user;
             }
         }
-        return 0;
+        return null;
     }
 
-    private String getLogin() {
+    public String getLogin() {
         return login;
     }
 

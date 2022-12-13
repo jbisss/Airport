@@ -7,11 +7,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-
 <AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.PcPageController">
    <children>
-      <Label layoutX="471.0" layoutY="30.0" text="Логин" />
-      <Button layoutX="18.0" layoutY="60.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="487.0" text="Купить билет" />
+      <Label fx:id="textLogin" layoutX="18.0" layoutY="27.0" text="Логин" />
+      <Button fx:id="buttonBuy" onAction="#buttonBuyClick" layoutX="18.0" layoutY="60.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="487.0" text="Купить билет" />
       <Label layoutX="18.0" layoutY="134.0" text="Ближайшие поездки" />
       <ScrollPane layoutX="18.0" layoutY="165.0" prefHeight="105.0" prefWidth="487.0">
          <content>
@@ -23,6 +22,6 @@
             </HBox>
          </content>
       </ScrollPane>
-      <Button layoutX="453.0" layoutY="280.0" mnemonicParsing="false" text="Выйти" />
+      <Button fx:id="buttonExit" onAction="#buttonExitClick" layoutX="453.0" layoutY="280.0" mnemonicParsing="false" text="Выйти" />
    </children>
 </AnchorPane>

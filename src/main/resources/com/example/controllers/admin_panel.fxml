@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.AdminPanelController">
    <children>
-      <ScrollPane layoutX="66.0" layoutY="87.0" prefHeight="200.0" prefWidth="388.0">
+      <ScrollPane fx:id="scrollPaneFlights" layoutX="66.0" layoutY="87.0" prefHeight="200.0" prefWidth="388.0">
          <content>
             <HBox prefHeight="36.0" prefWidth="385.0">
                <children>
@@ -25,7 +24,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="66.0" layoutY="287.0" mnemonicParsing="false" text="Выйти" />
-      <Button layoutX="356.0" layoutY="62.0" mnemonicParsing="false" text="Добавить рейс" />
+      <Button onAction="#buttonExitClick" fx:id="buttonExit" layoutX="66.0" layoutY="287.0" mnemonicParsing="false" text="Выйти" />
+      <Button onAction="#buttonAddFlightClick" fx:id="buttonAddFlight" layoutX="356.0" layoutY="62.0" mnemonicParsing="false" text="Добавить рейс" />
    </children>
 </AnchorPane>

@@ -5,20 +5,19 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.FillingDataController">
    <children>
-      <Label layoutX="459.0" layoutY="14.0" text="Логин" />
-      <TextField layoutX="48.0" layoutY="38.0" prefHeight="25.0" prefWidth="445.0" promptText="Фамилия" />
-      <TextField layoutX="48.0" layoutY="79.0" prefHeight="25.0" prefWidth="445.0" promptText="Имя" />
-      <TextField layoutX="48.0" layoutY="119.0" prefHeight="25.0" prefWidth="445.0" promptText="Отчество" />
+      <Label fx:id="textLogin" layoutX="48.0" layoutY="21.0" text="Логин" />
+      <TextField fx:id="fieldSurname" layoutX="48.0" layoutY="38.0" prefHeight="25.0" prefWidth="445.0" promptText="Фамилия" />
+      <TextField fx:id="fieldName" layoutX="48.0" layoutY="79.0" prefHeight="25.0" prefWidth="445.0" promptText="Имя" />
+      <TextField fx:id="fieldMiddleName" layoutX="48.0" layoutY="119.0" prefHeight="25.0" prefWidth="445.0" promptText="Отчество" />
       <Label layoutX="48.0" layoutY="158.0" text="Паспорт" />
-      <TextField layoutX="48.0" layoutY="188.0" prefHeight="25.0" prefWidth="196.0" promptText="Серия" />
-      <TextField layoutX="297.0" layoutY="188.0" prefHeight="25.0" prefWidth="196.0" promptText="Номер" />
+      <TextField fx:id="fieldPassSeries" layoutX="48.0" layoutY="188.0" prefHeight="25.0" prefWidth="196.0" promptText="Серия" />
+      <TextField fx:id="fieldPassNumber" layoutX="297.0" layoutY="188.0" prefHeight="25.0" prefWidth="196.0" promptText="Номер" />
       <Label layoutX="48.0" layoutY="226.0" text="Банковская карта" />
-      <TextField layoutX="48.0" layoutY="251.0" prefHeight="25.0" prefWidth="196.0" promptText="Номер" />
-      <TextField layoutX="297.0" layoutY="251.0" prefHeight="25.0" prefWidth="196.0" promptText="ПИН" />
-      <Button layoutX="48.0" layoutY="291.0" mnemonicParsing="false" text="Отмена" />
-      <Button layoutX="435.0" layoutY="291.0" mnemonicParsing="false" text="Далее" />
+      <TextField fx:id="fieldCardNumber" layoutX="48.0" layoutY="251.0" prefHeight="25.0" prefWidth="196.0" promptText="Номер" />
+      <TextField fx:id="fieldPin" layoutX="297.0" layoutY="251.0" prefHeight="25.0" prefWidth="196.0" promptText="ПИН" />
+      <Button fx:id="buttonCancel" onAction="#buttonCancelClick" layoutX="48.0" layoutY="291.0" mnemonicParsing="false" text="Отмена" />
+      <Button fx:id="buttonNext" onAction="#buttonNextClick" layoutX="443.0" layoutY="291.0" mnemonicParsing="false" text="Далее" />
    </children>
 </AnchorPane>
