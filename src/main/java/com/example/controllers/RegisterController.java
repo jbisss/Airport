@@ -13,7 +13,7 @@ public class RegisterController {
     public Button buttonRegister;
     public void buttonRegisterClick(){
         if ((User.findUser(fieldLogin.getText(), fieldPassword.getText()) == null)) {
-            User.actualUser = new User(fieldLogin.getText(), fieldPassword.getText());
+            User.actualUser = new User(fieldLogin.getText(), fieldPassword.getText(), 1234, 1234);
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(getClass().getResource("pc_page.fxml"));

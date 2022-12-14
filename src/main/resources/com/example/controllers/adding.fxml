@@ -16,11 +16,13 @@
         <TextField fx:id="fieldDeparture" layoutX="136.0" layoutY="58.0" prefWidth="250.0" />
         <TextField fx:id="fieldDestination" layoutX="136.0" layoutY="97.0" prefHeight="25.0" prefWidth="250.0" />
         <TextField fx:id="fieldDate" layoutX="136.0" layoutY="140.0" prefHeight="25.0" prefWidth="115.0" />
-        <TextField fx:id="fieldTime" layoutX="271.0" layoutY="140.0" prefHeight="25.0" prefWidth="115.0" />
+        <TextField fx:id="fieldTime" layoutX="271.0" layoutY="140.0" prefHeight="25.0" prefWidth="51.0" />
         <Label layoutX="136.0" layoutY="183.0" text="Количество мест" />
-        <TextField layoutX="136.0" layoutY="209.0" prefHeight="25.0" prefWidth="115.0" />
-        <TextField layoutX="271.0" layoutY="209.0" prefHeight="25.0" prefWidth="115.0" />
-        <Button onAction="#buttonCancelClick" fx:id="buttonCancel" layoutX="136.0" layoutY="253.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Отмена" />
-        <Button onAction="#buttonAddClick" fx:id="buttonAdd" layoutX="312.0" layoutY="253.0" mnemonicParsing="false" text="Добавить" />
+        <TextField fx:id="fieldSeats" layoutX="136.0" layoutY="209.0" prefHeight="25.0" prefWidth="115.0" />
+        <TextField fx:id="fieldClass" layoutX="271.0" layoutY="209.0" prefHeight="25.0" prefWidth="115.0" />
+        <Button fx:id="buttonCancel" layoutX="136.0" layoutY="253.0" mnemonicParsing="false" onAction="#buttonCancelClick" prefHeight="25.0" prefWidth="74.0" text="Отмена" />
+        <Button fx:id="buttonAdd" layoutX="312.0" layoutY="253.0" mnemonicParsing="false" onAction="#buttonAddClick" text="Добавить" />
+      <TextField fx:id="fieldTime1" layoutX="335.0" layoutY="140.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="271.0" layoutY="183.0" text="Класс" />
     </children>
 </AnchorPane>

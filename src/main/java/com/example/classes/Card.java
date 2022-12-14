@@ -2,8 +2,8 @@ package com.example.classes;
 
 public class Card {
     private int money;
-    private final int number;
-    private final int pinCode;
+    private int number;
+    private int pinCode;
 
     public Card(int money, int number, int pinCode) {
         this.money = money;
@@ -20,6 +20,9 @@ public class Card {
         }
     }
 
+    public void addMoney(int money){
+        this.money += money;
+    }
     public int getMoney() {
         return money;
     }
@@ -30,5 +33,13 @@ public class Card {
 
     public int getPinCode() {
         return pinCode;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setPinCode(int pinCode) {
+        this.pinCode = pinCode;
     }
 }

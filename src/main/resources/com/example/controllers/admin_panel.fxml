@@ -4,19 +4,14 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="330.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.AdminPanelController">
    <children>
       <ScrollPane fx:id="scrollPaneFlights" layoutX="66.0" layoutY="87.0" prefHeight="200.0" prefWidth="388.0">
          <content>
-            <HBox prefHeight="36.0" prefWidth="385.0">
-               <children>
-                  <Label prefHeight="36.0" prefWidth="297.0" text="Flight info" />
-                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="140.0" text="Edit" />
-               </children>
-            </HBox>
+            <VBox fx:id="vBox" prefHeight="200.0" prefWidth="372.0" />
          </content>
       </ScrollPane>
       <Label layoutX="159.0" layoutY="19.0" text="Панель администратора">
@@ -24,7 +19,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button onAction="#buttonExitClick" fx:id="buttonExit" layoutX="66.0" layoutY="287.0" mnemonicParsing="false" text="Выйти" />
-      <Button onAction="#buttonAddFlightClick" fx:id="buttonAddFlight" layoutX="356.0" layoutY="62.0" mnemonicParsing="false" text="Добавить рейс" />
+      <Button fx:id="buttonExit" layoutX="66.0" layoutY="287.0" mnemonicParsing="false" onAction="#buttonExitClick" text="Выйти" />
+      <Button fx:id="buttonAddFlight" layoutX="356.0" layoutY="62.0" mnemonicParsing="false" onAction="#buttonAddFlightClick" text="Добавить рейс" />
    </children>
 </AnchorPane>

@@ -4,30 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[fix] fixed packages">
+    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] fxml elements added to controllers and methods are assigned">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Elements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AdminPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AdminPanelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/ChoosingFlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/ChoosingFlightController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/EditingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/EditingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/EnterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/EnterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/FillingDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/FillingDataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/FlightInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/FlightInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/FlightSearchingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/FlightSearchingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/EnterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/PcPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/PcPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/adding.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/adding.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/admin_panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/admin_panel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/choosing_flight.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/choosing_flight.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/editing.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/editing.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/enter.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/enter.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/filling_data.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/filling_data.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_info.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_searching.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_searching.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/pc_page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/pc_page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,11 @@
       <workItem from="1670947694896" duration="1023000" />
       <workItem from="1670953416520" duration="1298000" />
       <workItem from="1670954884029" duration="2316000" />
-      <workItem from="1670970786335" duration="1542000" />
+      <workItem from="1670970786335" duration="1595000" />
+      <workItem from="1671020914809" duration="7000000" />
+      <workItem from="1671029372245" duration="1153000" />
+      <workItem from="1671030545691" duration="5505000" />
+      <workItem from="1671037493103" duration="10119000" />
     </task>
     <task id="LOCAL-00001" summary="[codedrop] fxml+classes">
       <created>1670810355581</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670811526769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[codedrop] fxml elements added to controllers and methods are assigned">
+      <created>1670972374621</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670972374621</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[codedrop] fxml+classes" />
     <MESSAGE value="[fix] fixed packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] fixed packages" />
+    <MESSAGE value="[codedrop] fxml elements added to controllers and methods are assigned" />
+    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] fxml elements added to controllers and methods are assigned" />
   </component>
 </project>
