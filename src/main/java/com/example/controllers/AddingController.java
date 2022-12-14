@@ -49,6 +49,7 @@ public class AddingController {
         int otv = random.nextInt(1000) + 100;
         int otv_1 = random.nextInt(150) + 1;
         Flight.flights.add(new Flight(a_1, a_2, fieldDate.getText(), fieldTime.getText(), fieldTime1.getText(), flag, otv_1, otv, Elements.adminMain));
+        Elements.dates.add(fieldDate.getText());
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("admin_panel.fxml"));

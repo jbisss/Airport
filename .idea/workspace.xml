@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] ff">
+    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] pp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,8 @@
       <workItem from="1671020914809" duration="7000000" />
       <workItem from="1671029372245" duration="1153000" />
       <workItem from="1671030545691" duration="5505000" />
-      <workItem from="1671037493103" duration="10480000" />
+      <workItem from="1671037493103" duration="11106000" />
+      <workItem from="1671052196801" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="[codedrop] fxml+classes">
       <created>1670810355581</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671047800356</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[codedrop] pp">
+      <created>1671048008239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048008239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="[fix] fixed packages" />
     <MESSAGE value="[codedrop] fxml elements added to controllers and methods are assigned" />
     <MESSAGE value="[codedrop] ff" />
-    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] ff" />
+    <MESSAGE value="[codedrop] pp" />
+    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] pp" />
   </component>
 </project>
