@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] pp">
+    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[fix] adding flight">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AddingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/ChoosingFlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/ChoosingFlightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/PcPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/PcPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/controllers/flight_info.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,8 @@
       <workItem from="1671030545691" duration="5505000" />
       <workItem from="1671037493103" duration="11106000" />
       <workItem from="1671052196801" duration="178000" />
+      <workItem from="1671052449419" duration="423000" />
+      <workItem from="1671053606094" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="[codedrop] fxml+classes">
       <created>1670810355581</created>
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671048008239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[fix] adding flight">
+      <created>1671052655660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671052655660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +160,7 @@
     <MESSAGE value="[codedrop] fxml elements added to controllers and methods are assigned" />
     <MESSAGE value="[codedrop] ff" />
     <MESSAGE value="[codedrop] pp" />
-    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] pp" />
+    <MESSAGE value="[fix] adding flight" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] adding flight" />
   </component>
 </project>

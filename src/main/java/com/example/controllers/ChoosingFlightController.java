@@ -37,8 +37,11 @@ public class ChoosingFlightController {
                     && flight.getServiceClass() == Flight.actualFlight.getServiceClass()) {
                 HBox hBox = new HBox();
                 TextField timeDep = new TextField(flight.getDepartureTime());
+                timeDep.setEditable(false);
                 TextField timeDes = new TextField(flight.getDestinationTime());
+                timeDes.setEditable(false);
                 TextField cost = new TextField(Integer.toString(flight.getCost()));
+                cost.setEditable(false);
                 Button button = new Button("Выбрать");
                 timeDep.setPrefWidth(160);
                 timeDes.setPrefWidth(120);

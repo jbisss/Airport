@@ -30,6 +30,7 @@ public class PcPageController {
         for (Flight  flight : User.actualUser.usersFlight) {
             HBox hBox = flight.hBox;
             TextField textField = new TextField();
+            textField.setEditable(false);
             textField.setText(String.valueOf(flight));
             textField.setPrefWidth(410);
             hBox.getChildren().add(textField);
