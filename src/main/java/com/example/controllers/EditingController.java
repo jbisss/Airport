@@ -40,10 +40,17 @@ public class EditingController {
         int f_1 = (date[0]-48) * 10 + date[1] - 48;
         int f_2 = (date[3]-48) * 10 + date[4] - 48;
         int f_3 = (date[6] -48)* 10 + date[7] - 48;
-        System.out.println(f_1);
-        System.out.println(f_2);
-        System.out.println(f_3);
-        if (f_1 < 32 && f_2 < 13 && f_3 < 23){
+        char[] time_1 = fieldTime.getText().toCharArray();
+        char[] time_2 = fieldTime1.getText().toCharArray();
+        int t_1 = (time_1[0] - 48) * 10 + time_1[1] - 48;
+        int t_2 = (time_1[3] - 48) * 10 + time_1[4] - 48;
+        int tt_1 = (time_2[0] - 48) * 10 + time_2[1] - 48;
+        int tt_2 = (time_2[3] - 48) * 10 + time_2[4] - 48;
+        System.out.println(t_1);
+        System.out.println(t_2);
+        System.out.println(tt_1);
+        System.out.println(tt_2);
+        if (f_1 < 32 && f_2 < 13 && f_3 < 23 && t_1 < 24 && t_2 < 60 && tt_1 < 24 && tt_2 < 60){
             Flight.flightToChange.departure.setCity(fieldDeparture.getText());
             Flight.flightToChange.destination.setCity(fieldDestination.getText());
             Flight.flightToChange.setDate(fieldDate.getText());
