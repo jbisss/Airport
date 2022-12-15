@@ -6,6 +6,7 @@ import com.example.classes.User;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -15,7 +16,11 @@ public class EnterController {
     public Button buttonRegister;
     public TextField fieldLogin;
     public TextField fieldPassword;
+    public Label textError;
 
+    public void initialize(){
+        textError.setText("");
+    }
     public void buttonEnterClick(){
         Elements.foo();
         if (User.findUser(fieldLogin.getText(), fieldPassword.getText())!=null) {
@@ -25,6 +30,8 @@ public class EnterController {
             } else {
                 openWindow("pc_page.fxml");
             }
+        } else {
+            textError.setText("Такого пользователя не существует!");
         }
     }
 
