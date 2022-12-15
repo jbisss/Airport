@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] date">
+    <list default="true" id="a5968899-38c4-4bdc-821c-f3b66b8b4fdf" name="Changes" comment="[codedrop] date&amp;time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/EditingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/EditingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/classes/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/classes/Elements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671108009621</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[codedrop] date&amp;time">
+      <created>1671108407625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671108407625</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="[codedrop] dates" />
     <MESSAGE value="[codedrop] error" />
     <MESSAGE value="[codedrop] date" />
-    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] date" />
+    <MESSAGE value="[codedrop] date&amp;time" />
+    <option name="LAST_COMMIT_MESSAGE" value="[codedrop] date&amp;time" />
   </component>
 </project>

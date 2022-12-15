@@ -31,8 +31,16 @@ public class Elements {
         Random randF = new Random();
         for (int i = 0; i < 100;i++){
             int ch = randF.nextInt(31) + 1;
+            String ch_1 = Integer.toString(ch);
+            if (ch < 10) {
+                ch_1 = "0" + ch_1;
+            }
             int m = randF.nextInt(12) + 1;
-            String date = ch + "." + Integer.toString(m) + ".22";
+            String m_1 = Integer.toString(m);
+            if (m < 10) {
+                m_1 = "0" + m_1;
+            }
+            String date = ch_1 + "." + m_1 + ".22";
             dates.add(date);
             int h_1 = randF.nextInt(24);
             int min_1 = randF.nextInt(60);
