@@ -1,5 +1,6 @@
 package com.example.controllers;
 
+import com.example.classes.Elements;
 import com.example.classes.Flight;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -22,6 +23,7 @@ public class EditingController {
         fieldDeparture.setText(Flight.flightToChange.departure.getCity());
         fieldDestination.setText(Flight.flightToChange.destination.getCity());
         fieldDate.setText(Flight.flightToChange.getDate());
+        Elements.dates.remove(Flight.flightToChange.getDate());
         fieldTime.setText(Flight.flightToChange.getDepartureTime());
         fieldTime1.setText(Flight.flightToChange.getDestinationTime());
         textSeats.setText(Integer.toString(Flight.flightToChange.getSeatsNumber()));
@@ -35,10 +37,12 @@ public class EditingController {
         Flight.flightToChange.departure.setCity(fieldDeparture.getText());
         Flight.flightToChange.destination.setCity(fieldDestination.getText());
         Flight.flightToChange.setDate(fieldDate.getText());
+        Elements.dates.add(fieldDate.getText());
         Flight.flightToChange.setDepartureTime(fieldTime.getText());
         Flight.flightToChange.setDestinationTime(fieldTime1.getText());
         Flight.flightToChange.setSeatsNumber(Integer.parseInt(textSeats.getText()));
         Flight.flightToChange.setServiceClass(textClass.getText().equals("Бизнес"));
+        System.out.println(Flight.flights);
         buttonCancelClick();
     }
     public void buttonCancelClick(){
