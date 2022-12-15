@@ -8,6 +8,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.util.Date;
+
 public class EditingController {
     public TextField fieldDeparture;
     public TextField fieldDestination;
@@ -34,16 +36,28 @@ public class EditingController {
         }
     }
     public void buttonSaveClick(){
-        Flight.flightToChange.departure.setCity(fieldDeparture.getText());
-        Flight.flightToChange.destination.setCity(fieldDestination.getText());
-        Flight.flightToChange.setDate(fieldDate.getText());
-        Elements.dates.add(fieldDate.getText());
-        Flight.flightToChange.setDepartureTime(fieldTime.getText());
-        Flight.flightToChange.setDestinationTime(fieldTime1.getText());
-        Flight.flightToChange.setSeatsNumber(Integer.parseInt(textSeats.getText()));
-        Flight.flightToChange.setServiceClass(textClass.getText().equals("Бизнес"));
-        System.out.println(Flight.flights);
-        buttonCancelClick();
+        char[] date = fieldDate.getText().toCharArray();
+        int f_1 = (date[0]-48) * 10 + date[1] - 48;
+        int f_2 = (date[3]-48) * 10 + date[4] - 48;
+        int f_3 = (date[6] -48)* 10 + date[7] - 48;
+        System.out.println(f_1);
+        System.out.println(f_2);
+        System.out.println(f_3);
+        if (f_1 < 32 && f_2 < 13 && f_3 < 23){
+            Flight.flightToChange.departure.setCity(fieldDeparture.getText());
+            Flight.flightToChange.destination.setCity(fieldDestination.getText());
+            Flight.flightToChange.setDate(fieldDate.getText());
+            Elements.dates.add(fieldDate.getText());
+            Flight.flightToChange.setDepartureTime(fieldTime.getText());
+            Flight.flightToChange.setDestinationTime(fieldTime1.getText());
+            Flight.flightToChange.setSeatsNumber(Integer.parseInt(textSeats.getText()));
+            Flight.flightToChange.setServiceClass(textClass.getText().equals("Бизнес"));
+            System.out.println(Flight.flights);
+            buttonCancelClick();
+        } else {
+            System.out.println("Invalid date!");
+        }
+
     }
     public void buttonCancelClick(){
         try {
